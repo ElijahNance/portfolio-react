@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.90dad225.css",
+    "main.js": "/portfolio-react/static/js/main.6cabe0d9.js",
+    "static/media/attack.jpg": "/portfolio-react/static/media/attack.9673298cea1c1257b3c5.jpg",
+    "static/media/beast.jpg": "/portfolio-react/static/media/beast.26aa522b0c5a6a331cfc.jpg",
+    "static/media/collosal.jpg": "/portfolio-react/static/media/collosal.820faacc0916df646b98.jpg",
+    "static/media/jaw.jpg": "/portfolio-react/static/media/jaw.f223b4619601bf70d212.jpg",
+    "static/media/resume1.png": "/portfolio-react/static/media/resume1.7dd07ba7e374b58d1bbd.png",
+    "static/media/resume2png.png": "/portfolio-react/static/media/resume2png.b6a0e6974cfedd5e864a.png",
+    "static/media/warhammer.jpg": "/portfolio-react/static/media/warhammer.e373a530b1807464d893.jpg",
+    "static/media/armored.jpg": "/portfolio-react/static/media/armored.a28b9bbcb23d4ff87542.jpg",
+    "static/media/avatar.jpg": "/portfolio-react/static/media/avatar.98825920d21eb32b88ff.jpg",
+    "index.html": "/portfolio-react/index.html",
+    "main.90dad225.css.map": "/portfolio-react/static/css/main.90dad225.css.map",
+    "main.6cabe0d9.js.map": "/portfolio-react/static/js/main.6cabe0d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90dad225.css",
+    "static/js/main.6cabe0d9.js"
+  ]
+}
