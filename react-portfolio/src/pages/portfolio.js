@@ -52,8 +52,8 @@ function Portfolio() {
                         </Card.Text>
                     </Card.Body>
                     <Card.Body>
-                        <Card.Link href="https://elijahnance.github.io/work-day-scheduler/">Deployed Site</Card.Link>
-                        <Card.Link href="https://github.com/ElijahNance/work-day-scheduler">GitHub</Card.Link>
+                        <Card.Link href="https://elijahnance.github.io/work-day-scheduler/" target="_blank">Deployed Site</Card.Link>
+                        <Card.Link href="https://github.com/ElijahNance/work-day-scheduler" target="_blank">GitHub</Card.Link>
                     </Card.Body>
                 </Card>
                 </Row>
@@ -67,8 +67,8 @@ function Portfolio() {
                         </Card.Text>
                     </Card.Body>
                     <Card.Body>
-                        <Card.Link href="https://elijahnance.github.io/weather-dashboard/">Deployed Site</Card.Link>
-                        <Card.Link href="https://github.com/ElijahNance/weather-dashboard">GitHub</Card.Link>
+                        <Card.Link href="https://elijahnance.github.io/weather-dashboard/" target="_blank">Deployed Site</Card.Link>
+                        <Card.Link href="https://github.com/ElijahNance/weather-dashboard" target="_blank">GitHub</Card.Link>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
@@ -80,22 +80,21 @@ function Portfolio() {
                         </Card.Text>
                     </Card.Body>
                     <Card.Body>
-                        <Card.Link href="https://elijahnance.github.io/portfolio-base/">Deployed Site</Card.Link>
-                        <Card.Link href="https://github.com/ElijahNance/portfolio-base">GitHub</Card.Link>
+                        <Card.Link href="https://elijahnance.github.io/portfolio-base/" target="_blank">Deployed Site</Card.Link>
+                        <Card.Link href="https://github.com/ElijahNance/portfolio-base" target="_blank">GitHub</Card.Link>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Warhammer} />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title>SEO Refactor</Card.Title>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                            Refactored existing code to enhance search engine optimization (SEO);
                         </Card.Text>
                     </Card.Body>
                     <Card.Body>
-                        <Card.Link href="https://elijahnance.github.io/seo-refactor/">Deployed Site</Card.Link>
-                        <Card.Link href="https://github.com/ElijahNance/seo-refactor">GitHub</Card.Link>
+                        <Card.Link href="https://elijahnance.github.io/seo-refactor/" target="_blank">Deployed Site</Card.Link>
+                        <Card.Link href="https://github.com/ElijahNance/seo-refactor" target="_blank">GitHub</Card.Link>
                     </Card.Body>
                 </Card>
             </Row>

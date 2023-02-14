@@ -1,6 +1,8 @@
 import React from "react";
 import avatar from '../avatar.jpg'
 
+
+// Styling for the Paragraph
 const styles = {
     p: {
         margin: 32,

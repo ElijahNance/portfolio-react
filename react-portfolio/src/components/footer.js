@@ -1,5 +1,6 @@
 import React from "react";
 
+//Styling for the footer
 const styles = {
     a: {
         margin: 60,

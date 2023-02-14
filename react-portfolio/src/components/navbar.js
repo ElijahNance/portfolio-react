@@ -1,9 +1,13 @@
 import {React, useState} from "react";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import About from '../pages/about';
 import Contact from '../pages/contact';
 import Portfolio from '../pages/portfolio';
 import Resume from '../pages/resume';
 
+//Styling for the NavBar
 const styles = {
     li: {
         display: 'inline-flex',
@@ -14,21 +18,28 @@ const styles = {
 
 };
 
-const Navbar = () => {
+const Navigation = () => {
 
-    const [pageToRender, setPageToRender] = useState('about')
-    //const pageToRender = 'portfolio'
+    //Sets load page to About Me page
+    const [pageToRender, setPageToRender] = useState('about');
+    
 
 
-    //const localValue = useContext(PageContext);
+    
     return (
         <div className="container flex-column justify-space-between-lg justify-center align-center text-center">
-        <ul>
-            <button style={styles.li} className='p-2' onClick={() => setPageToRender('about')}>About Me</button>
-            <button style={styles.li} className='p-2'onClick={() => setPageToRender('portfolio')}>Portfolio</button>
-            <button style={styles.li} className='p-2'onClick={() => setPageToRender('resume')}>Resume</button>
-            <button style={styles.li} className='p-2'onClick={() => setPageToRender('contact')}>Contact</button>
-        </ul>
+        <Navbar bg="light" variant="light">
+        <Container>
+          <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link onClick={() => setPageToRender('about')}>About Me</Nav.Link>
+            <Nav.Link onClick={() => setPageToRender('portfolio')}>Portfolio</Nav.Link>
+            <Nav.Link onClick={() => setPageToRender('resume')}>Resume</Nav.Link>
+            <Nav.Link onClick={() => setPageToRender('contact')}>Contact</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+      {/* Conditionally renders components based on the value of state */} 
         <div className='container'>
           {pageToRender === 'about' &&
           <About />
@@ -49,4 +60,4 @@ const Navbar = () => {
 
 };
 
-export default Navbar
+export default Navigation

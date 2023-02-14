@@ -1,5 +1,6 @@
 import React from "react";
 
+//Button Styling
 const styles = {
     button: {
         margin: 60

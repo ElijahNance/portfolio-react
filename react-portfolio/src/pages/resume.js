@@ -2,6 +2,8 @@ import React from "react";
 import resume from '../resume1.png';
 import resumeCont from '../resume2png.png';
 
+
+// Styling Header
 const styles = {
     h2: {
         margin: 20
